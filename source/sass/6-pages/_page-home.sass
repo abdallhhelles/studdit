@@ -1,10 +1,10 @@
 #header
-  background: url("../img/pic3.jpg") no-repeat
+  background: url("../img/pic5.jpg") no-repeat
   background-size: cover
-  height: 800px
+  height: 1050px
   color: white
   text-align: center
-  overflow: auto
+  overflow: hidden
 
   img
     max-width: 1000px
@@ -15,16 +15,24 @@
     margin: 0 auto
 
   h1
+    font-family: Nunito
+    font-weight: normal
     color: white
-    margin-top: 100px
+    margin-top: 200px
     margin-bottom: 10px
+  p
+    font-family: Nunito
+    font-size: 1.5rem
+
 
 
 
 .main-nav
   display: flex
-  margin-top: 20px
+  margin-top: 30px
   padding: 0
+  font-family: Nunito
+  letter-spacing: 2px
 
   li
     list-style: none
@@ -41,6 +49,7 @@
   li:first-child
     margin-right: auto
     padding: 0 0
+    letter-spacing: 0
     a
       padding: 0
       font-family: 'Tulpen One', cursive
@@ -50,6 +59,108 @@
 
 a.download
   background: white
-  color: #C95ECA
+  color: #FF525D
   box-shadow: 0 12px 10px -10px rgba(0,0,0,0.2)
   margin-left: 25px
+
+
+#brands ul
+  margin: 0
+  padding-top: 40px
+  padding-bottom: 40px
+  background: white
+  display: grid
+  grid-template-columns: repeat(4, auto)
+  @media only screen and (max-width: 550px)
+    grid-template-columns: repeat(2, auto)
+
+  li
+    list-style: none
+  li
+    width: 100%
+
+.hr
+    background: #e7e7e7
+    height: 1px
+    width: 700px
+    margin: 0px auto;
+    float: none;
+
+
+#about
+  max-width: 1000px
+  margin: auto
+  padding-top: 40px
+  padding-bottom: 40px
+  background: white
+  text-align: center
+  h1
+    font-family: Nunito
+    font-weight: 600
+    font-size: 30px
+  p
+    text-align: center
+    margin: auto
+    max-width: 70%
+    font-size: 18px
+    line-height: 28px
+
+
+#features
+  background: url("../img/pic9.jpg")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  height: 800px
+  // background: #f9f9f9
+  text-align: center
+  position: relative
+  height: 700px
+  // &:after
+  //   bottom: 0
+  //   position: absolute
+  //   background: inherit
+  //   content: " "
+  //   height: 100%
+  //   left: 0
+  //   right: 0
+  //   transform: skewY(-10deg)
+  //   transform-origin: 100%
+  //   z-index: -1
+
+  h2
+    margin: 80px 0
+    font-family: Nunito
+    color: white
+
+.cards
+  display: grid
+  grid-template-columns: repeat(4, auto)
+  grid-gap: 30px
+  @media only screen and (max-width: 550px)
+    grid-template-columns: repeat(2, auto)
+
+.feature-card
+  background: #F5F5F5
+  padding: 30px 40px 10px 40px
+  border-radius: 4px
+
+  h3
+    font-family: Nunito
+    margin: 10px 0 0
+
+  p
+    font-family: Nunito
+
+.ask
+  border-top: 3px solid #FF525D
+  box-shadow: 0 12px 10px -10px rgba(0,0,0,0.2)
+.answer
+  border-top: 3px solid #7DF5A5
+  box-shadow: 0 12px 10px -10px rgba(0,0,0,0.2)
+.tutor
+  border-top: 3px solid #8AD7F8
+  box-shadow: 0 12px 10px -10px rgba(0,0,0,0.2)
+.connect
+  border-top: 3px solid #FFD05B
+  box-shadow: 0 12px 10px -10px rgba(0,0,0,0.2)
