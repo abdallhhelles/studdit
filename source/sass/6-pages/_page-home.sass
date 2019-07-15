@@ -10,6 +10,7 @@
     max-width: 1000px
     width: 100%
 
+
   article
     width: 80%
     margin: 0 auto
@@ -23,9 +24,6 @@
   p
     font-family: Nunito
     font-size: 1.5rem
-
-
-
 
 .main-nav
   display: flex
@@ -64,13 +62,14 @@ a.download
   margin-left: 25px
 
 a.call-to-action
+  font-family: Nunito
   background: white
   color: #FF525D
   box-shadow: 0 12px 10px -10px rgba(0,0,0,0.2)
   border-radius: 4px
   padding: 15px 50px
   text-decoration: none
-  font-weight: 500
+  font-weight: 900
   text-transform: uppercase
   width: auto
 
@@ -95,8 +94,8 @@ a.call-to-action
     background: #e7e7e7
     height: 1px
     width: 700px
-    margin: 0px auto;
-    float: none;
+    margin: 0px auto
+    float: none
 
 
 #about
@@ -170,9 +169,13 @@ a.call-to-action
   background: #F5F5F5
   padding: 30px 40px 10px 40px
   border-radius: 4px
+  transition: transform .4s
   h3
     font-family: Nunito
     margin: 10px 0 0
+
+.feature-card:hover
+  transform: scale(1.1)
 
 .ask
   border-top: 3px solid #FF525D
@@ -188,12 +191,26 @@ a.call-to-action
   box-shadow: 0 12px 10px -10px rgba(0,0,0,0.2)
 
 #g-features
+  background: url("../img/pic9.jpg")
   background-repeat: no-repeat
   background-position: center
   background-size: cover
   text-align: center
   position: relative
   height: auto
+  h2
+    margin-top: 80px
+    margin-bottom: 10px
+    font-family: chalk
+    color: white
+  p
+    text-align: center
+    margin: auto
+    max-width: 100%
+    font-size: 18px
+    line-height: 28px
+    color: white
+    font-family: 'Nunito'
 
 .g-cards
   margin: 0
@@ -205,17 +222,34 @@ a.call-to-action
   @media only screen and (max-width: 550px)
     grid-template-columns: repeat(2, auto)
 
+
 .g-feature-card
   margin: 0 50px
   color: white
   padding: 0
   border-radius: 4px
-
+  font-family: Nunito
   h3
+    font-family: Nunito
     color: white
     margin-bottom: 0
 
 
-footer
+#footer
+  p
+  font-family: Nunito
+  font-size: 3rem
   margin: 40px
   text-align: center
+
+a.footer-logo
+  margin-right: auto
+  padding: 0 0
+  letter-spacing: 0
+  font-family: 'Tulpen One', cursive
+  text-transform: lowercase
+  font-size: 80px
+  text-decoration: none
+  color: #FF525D
+  font-weight: 900
+  letter-spacing: 0
