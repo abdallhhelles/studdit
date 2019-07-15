@@ -396,14 +396,14 @@ hr {
 
 a.download {
   background: white;
-  color: #FF525D;
+  color: #00bdaa;
   box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
   margin-left: 25px; }
 
 a.call-to-action {
   font-family: Nunito;
   background: white;
-  color: #FF525D;
+  color: #00bdaa;
   box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 15px 50px;
@@ -560,6 +560,37 @@ a.call-to-action {
     color: white;
     margin-bottom: 0; }
 
+#sign-up {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #00bdaa;
+  font-family: Nunito;
+  text-align: center; }
+  #sign-up label {
+    color: white;
+    font-size: 16px; }
+
+#mc-embedded-subscribe {
+  margin-top: 10px;
+  font-family: Nunito;
+  background: white;
+  color: #00bdaa;
+  border-radius: 4px;
+  padding: 15px 50px;
+  text-decoration: none;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: auto; }
+
+.mc-field-group {
+  padding-top: 10px;
+  right: auto; }
+
+.small-meta {
+  color: white; }
+
 #footer {
   font-family: Nunito;
   font-size: 3rem;
@@ -574,6 +605,6 @@ a.footer-logo {
   text-transform: lowercase;
   font-size: 80px;
   text-decoration: none;
-  color: #FF525D;
+  color: #00bdaa;
   font-weight: 900;
   letter-spacing: 0; }
